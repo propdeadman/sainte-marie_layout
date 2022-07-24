@@ -1,0 +1,22 @@
+/* FONTS LOAD SECTION */
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Chivo:wght@400;700&family=Nanum+Gothic&display=swap');
+
+/*
+font-family: 'Abel', sans-serif;
+font-family: 'Chivo', sans-serif;
+font-family: 'Nanum Gothic', sans-serif;
+*/
+
+/* USER VARIABLES SECTION */
+
+:root {
+    --accent: ;
+    --text: ;
+    --regular-text: ;
+    --lineheight: ;
+    --font: ;
+}
+
+
+/* GENERAL CSS SETTINGS */
