@@ -20,3 +20,66 @@ font-family: 'Nanum Gothic', sans-serif;
 
 
 /* GENERAL CSS SETTINGS */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/*nav*/
+
+nav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 22px;
+}
+
+.nav_list {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav_list-elements {
+    margin-top: 7px;
+}
+
+.nav_list-elements:nth-child(2),
+.nav_list-elements:nth-child(3),
+.nav_list-elements:nth-child(4) {
+
+    margin-left: 41px;
+}
+
+
+.nav_list-elements a {
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 14px;
+    text-align: right;
+    color: #AAAAAA;
+    text-decoration: none;
+}
+
+/*main*/
+
+main {
+    margin: auto;
+    margin-top: 107px;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block_first {
+    width: 920px;
+    height: 613px;
+    background-color: #000;
+}
